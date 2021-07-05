@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/swipe_layout"
     tools:context=".SearchActivity"
-    android:background="@color/primaryDarkColor">
+    android:background="@drawable/background">
 
     <RelativeLayout
         android:layout_width="match_parent"

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/root_layout"
     tools:context=".FavoritesActivity"
-    android:background="@color/primaryDarkColor">
+    android:background="@drawable/background">
 
         <androidx.cardview.widget.CardView
             android:layout_margin="5dp"

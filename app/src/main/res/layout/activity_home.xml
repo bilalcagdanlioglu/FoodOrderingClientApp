@@ -9,7 +9,7 @@
     android:id="@+id/drawer_layout"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
-    android:background="@color/primaryDarkColor">
+    android:background="@drawable/background">
 
     <include
         layout="@layout/app_bar_main"

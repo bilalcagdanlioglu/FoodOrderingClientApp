@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/rootLayout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/primaryDarkColor"
+    android:background="@drawable/background"
     tools:context=".Cart"
     android:padding="16dp">
 
@@ -17,7 +17,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:cardBackgroundColor="@color/white"
+        app:cardBackgroundColor="@color/primaryDarkColor"
         android:layout_alignParentBottom="true">
         <RelativeLayout
             android:layout_width="match_parent"
