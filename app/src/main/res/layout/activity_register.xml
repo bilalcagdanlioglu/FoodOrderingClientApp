@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo2"
+            android:layout_margin="3dp"
+            />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:drawableLeft="@drawable/ic_person"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="İsim"
+            android:layout_margin="3dp" />
+
+        <EditText
+            android:drawableLeft="@drawable/ic_phone"
+            android:id="@+id/edtPhone"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:hint="Telefon numarası giriniz"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:drawableLeft="@drawable/ic_lock"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:hint="Şifre giriniz"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edtSecureCode"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:hint="Secure Code"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="Kayıt Ol"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black" />
+
+    </LinearLayout>
+</RelativeLayout>

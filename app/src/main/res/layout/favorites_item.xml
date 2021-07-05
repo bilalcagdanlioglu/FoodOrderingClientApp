@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_margin="8dp"
+        android:background="@color/bgRowBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:src="@drawable/ic_delete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:layout_toLeftOf="@id/delete_icon"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/view_foreground"
+
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:id="@+id/food_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background"/>
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#4f0e0d0e"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:id="@+id/food_name"
+                android:text="Yemek ismi"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_quick_cart"
+                android:tint="@color/white"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_shopping_cart_24"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
