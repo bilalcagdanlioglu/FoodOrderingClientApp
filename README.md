@@ -13,7 +13,6 @@
 ![Food detail screen](https://user-images.githubusercontent.com/69059651/124502698-9f438000-ddcc-11eb-9a9b-0ac7129cc692.png)
 ![sepetim](https://user-images.githubusercontent.com/69059651/124502710-a1a5da00-ddcc-11eb-8b72-c90887c6764a.png)
 ![favoriler](https://user-images.githubusercontent.com/69059651/124502713-a36f9d80-ddcc-11eb-98cb-cc413f79c42b.png)
-![siparişler](https://user-images.githubusercontent.com/69059651/124502717-a5396100-ddcc-11eb-93ee-52053ce480c4.png)
 ![şifre](https://user-images.githubusercontent.com/69059651/124502720-a66a8e00-ddcc-11eb-8a5d-bda97f4cd89b.png)
 ![sipariş ver](https://user-images.githubusercontent.com/69059651/124502726-a79bbb00-ddcc-11eb-804b-13aab7f2ca3a.png)
 
